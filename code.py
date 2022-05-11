@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split as tts
 from sklearn.linear_model import LinearRegression as LR
 from sklearn.metrics import r2_score
 
-dataset=pd.read_csv("E:/Ai Lab/project 5/dataset/dataset.csv")
+dataset=pd.read_csv("dataset.csv")
 
 X=dataset.iloc[:,[0,1]].values
 Y=dataset.iloc[:,2:3].values
